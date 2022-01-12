@@ -1,4 +1,13 @@
-CREATE table employeeinfo(empid INT, empfname VARCHAR(10), emplname VARCHAR(10), department VARCHAR(10), project VARCHAR(5), address VARCHAR(30), DOB DATE, gender CHAR(1));
+CREATE table employeeinfo(
+    empid INT, 
+    empfname VARCHAR(10), 
+    emplname VARCHAR(10), 
+    department VARCHAR(10), 
+    project VARCHAR(5), 
+    address VARCHAR(30), 
+    DOB DATE, 
+    gender CHAR(1)
+);
 
 describe employeeinfo;
 
@@ -55,7 +64,7 @@ INSERT INTO employeeinfo VALUES(
 COMMIT;
 -- ALTER table employeeinfo modify(address VARCHAR(20));
 -- Q1
-SELECT * from employeeinfo;
+SELECT empid, empfname, emplname, department, project, address, TO_CHAR(DOB, 'dd-mm-yyyy'), gender from employeeinfo;
 -- Q2
 SELECT empfname||' '||emplname as EmployeeName, address from employeeinfo;
 -- Q3
