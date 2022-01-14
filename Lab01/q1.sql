@@ -64,7 +64,7 @@ INSERT INTO employeeinfo VALUES(
 COMMIT;
 -- ALTER table employeeinfo modify(address VARCHAR(20));
 -- Q1
-SELECT empid, empfname, emplname, department, project, address, TO_CHAR(DOB, 'dd-mm-yyyy'), gender from employeeinfo;
+SELECT empid, empfname, emplname, department, project, address, TO_CHAR(DOB, 'dd-mm-yyyy') AS DOB, gender from employeeinfo;
 -- Q2
 SELECT empfname||' '||emplname as EmployeeName, address from employeeinfo;
 -- Q3
