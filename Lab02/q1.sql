@@ -148,3 +148,8 @@ where table_name = 'REGISTRATION';
 SELECT COLUMN_NAME, CONSTRAINT_NAME
 FROM USER_CONS_COLUMNS 
 WHERE TABLE_NAME = 'REGISTRATION';
+
+
+Drop table from the child first
+-- if then also left
+drop table <name> CASCADE CONSTRAINTS;
