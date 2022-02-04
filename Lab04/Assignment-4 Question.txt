@@ -19,12 +19,12 @@ order.✅
 8. Find courses with no required prerequisite.✅
 
 9. Display faculty names in descending order by their department, 
-but in alphabetical order by their name within each department.❌
+but in alphabetical order by their name within each department.✅
 
 10. Find faculty members whose name start with C.✅
 
 11. Find students who started in year 2003. 
-Use start term column and wild card.❌
+Use start term column and wild card.✅
 
 12. Count the total number of rooms in LOCATION.✅
 

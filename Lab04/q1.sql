@@ -31,17 +31,18 @@ select * from course where prereq is NULL;
 
 -- -------------------------------------------------------------------------------------------------------
 -- Q9
-select name, deptname from faculty
-  left join department on faculty.deptid=department.deptid
-  order by faculty.name, department.DeptName desc;
+select f.name, d.deptname, f.deptid
+  from faculty f, department d
+  where f.deptid=d.deptid
+  order by f.name asc, d.deptname desc;
 
 -- Q10
 select * from faculty where name like 'C%'; 
 
 -- Q11
-select first||' '||last as name,
- StartTerm from student
- where to_char(startterm)='%2003';
+select stu.first||' '||stu.last as name, tee.startdate 
+ from student stu, term tee
+ where stu.StartTerm=tee.termid AND TO_CHAR(tee.startdate,'DD MONTH, YYYY') like '%2003';
 
 -- Q12
 select COUNT(roomid) from location;
