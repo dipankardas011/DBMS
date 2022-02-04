@@ -36,7 +36,7 @@ Display birth dates with the format '20 OCTOBER, 1970'✅
 15. Find 2 to the power 10.✅
 
 16. Display courses and prerequisites. If there is no 
-prerequisite, display �none� else display �one�.❌
+prerequisite, display none else display one.✅
 
 17. Find students who are born in the month of May.✅
 

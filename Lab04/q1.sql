@@ -29,7 +29,6 @@ insert into term values('WN04', 'Winter 2004', '28-Oct-2021', '31-Dec-2021');
 -- Q8
 select * from course where prereq is NULL;
 
--- -------------------------------------------------------------------------------------------------------
 -- Q9
 select f.name, d.deptname, f.deptid
   from faculty f, department d
@@ -48,7 +47,7 @@ select stu.first||' '||stu.last as name, tee.startdate
 select COUNT(roomid) from location;
 
 -- Q13
-select first||' '||last as name, TO_CHAR(birthdate,'DD MONTH, YYYY') as DOB  from student;      -- some more improvements
+select first||' '||last as name, TO_CHAR(birthdate,'DD MONTH, YYYY') as DOB  from student;
 
 
 -- Q14
@@ -63,8 +62,7 @@ select
 select power(2,10) from dual;
 
 -- Q16
-select courseid, prereq from course ;
-
+select courseid, nvl2(prereq, 'one', 'none') as prereq from course;
 
 -- Q17
 select * from student where birthdate like '%May%';
