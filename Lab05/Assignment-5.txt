@@ -1,0 +1,26 @@
+1. Display all student names and birth dates. Display birth dates with the format 1970, 20th OCTOBER✅
+
+2. GRANT only SELECT privilege to another user on your TERM table✅
+
+3.Find the number of rooms based on roomtype.✅
+
+4. Find the number of rooms based on building.✅
+
+5. Find the average of maxcount by term wise.✅
+
+6. Find the maximum of maxcount by term wise.✅
+
+7. Find the maximum of maxcount based o courseid.✅
+
+8. Display the crsection details arranged in ascending order of courseid and descending order of termid.✅
+
+9. Display the crsection details arranged in ascending order of termid and descending order of courseid.✅
+
+10. Find the number of students per each midterm grades. ✅
+Whether NULL values are considered or not -justify.
+Ans. Yes null grades are considered because NULL is also a been taken as a type of value for the 
+attribute midterm grades.
+
+11. Create another table Student_Details by deriving the studentid, first, last, street, city, state, zip,
+ birthdate and phone from Student table.✅
+
