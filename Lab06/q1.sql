@@ -16,7 +16,7 @@ select first||' '||last as name, faculty.name, building from student, faculty, l
 select title as courseName, faculty.name
     from course, crssection left outer join faculty
         ON faculty.facultyid=crssection.facultyid
-    WHERE course.COURSEID=CRSSECTION.COURSEID;
+    WHERE course.COURSEID=CRSSECTION.COURSEID AND CRSSECTION.TERMID='SP03';
 
 -- Q5
 select c1.title course, c2.prereq
