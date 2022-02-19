@@ -7,8 +7,8 @@ CREATE TABLE student
         State     	CHAR (2) DEFAULT 'NJ',
         Zip       	CHAR (5),
         StartTerm 	CHAR (4),
-				BirthDate 	DATE,
-				kFacultyId 	NUMBER (3),
+		BirthDate 	DATE,
+		kFacultyId 	NUMBER (3),
         MajorId   	NUMBER (3),
         Phone     	CHAR (10),
         CONSTRAINT student_studentid_pk1 PRIMARY KEY (StudentID));
