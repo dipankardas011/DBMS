@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7c98a0b-22f4-45b7-8b15-65047d8dd1c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DBMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DBMS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/ASSIGNMENT.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02/ASSIGNMENT.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-language-reference.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/sql-language-reference.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
