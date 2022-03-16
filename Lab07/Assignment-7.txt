@@ -1,15 +1,15 @@
-1. Display student Jose Diazs faculty advisors name and phone number.
+1. Display student Jose Diazs faculty advisors name and phone number.✅
 
-2. Find rooms with bottom-2 capacities.  Do not include office rooms.
+2. Find rooms with bottom-2 capacities.  Do not include office rooms.✅
 
-3. Find Spring 2003 course sections with the top three maximum count numbers.
+3. Find Spring 2003 course sections with the top three maximum count numbers.✅
 
-4. Find all information regarding classrooms (RoomType = C).
+4. Find all information regarding classrooms (RoomType = C).✅
 
 5. Create a new table, SP03SECT, for Spring 2003 semester course sections using a subquery.  Include CourseId, Section, FacultyId and
- RoomId columns only.
+ RoomId columns only.✅
 
-6. Delete rows from SP03SECT table for faculty Mobley.
+6. Delete rows from SP03SECT table for faculty Mobley.✅
 
 7. Find faculty members who do not teach any course in Spring 2003 semester. Use correlated subquery with NOT EXISTS operator on SP03SECT table.
 
