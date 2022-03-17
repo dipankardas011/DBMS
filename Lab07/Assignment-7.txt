@@ -11,10 +11,10 @@
 
 6. Delete rows from SP03SECT table for faculty Mobley.✅
 
-7. Find faculty members who do not teach any course in Spring 2003 semester. Use correlated subquery with NOT EXISTS operator on SP03SECT table.
+7. Find faculty members who do not teach any course in Spring 2003 semester. Use correlated subquery with NOT EXISTS operator on SP03SECT table.✅
 
-8. Find the course title whose pre requisite is 'Basic English'.
+8. Find the course title whose pre requisite is 'Basic English'.✅
 
-9. Find student id, name and city of the students who started in 'Winter 2003'.
+9. Find student id, name and city of the students who started in 'Winter 2003'.✅
 
-10. Find student id, name and city of the students who have registered.
+10. Find student id, name and city of the students who have registered.✅
