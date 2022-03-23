@@ -1,0 +1,28 @@
+1. Create a view for the studentid, first name, last name and 
+phone no. Then display the content.✅
+
+2. Create a view for the details of crssection for section 02.
+ Then display the content.✅
+
+3. Create a view for faculty name, phone, deptname.
+ Then display the content.✅
+
+4. Create a view for faculty name, phone, deptname and building 
+name. Then display the content.✅
+
+5. Create a view for Room details. Then display the content.✅
+
+6. Insert a new room through the view created on Room details.
+Then display the content.✅
+
+7. Delete the newly inserted record in the view created on Room 
+details. Then display the content.✅
+
+8. Create an index to search students faster based on their major 
+ID.✅
+
+9. Create a sequence and use it for the data insertion in the 
+location table. The sequence will be used on roomid column.✅
+
+10. create synomyms as Address and Place for Location. Then
+ use the synonyms for the data access.✅
