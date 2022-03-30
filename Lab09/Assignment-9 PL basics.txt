@@ -1,0 +1,21 @@
+1. Create a program script that uses a PL/SQL anonymous block to perform the following: Use a host variable 
+AREA to store the result. Declare a local variable RADIUS with numeric data type. Declare a constant PI with
+ value 3.14. Assign a value to the variable RADIUS by using a substitution variable. Calculate area of a circle, 
+ then print result in SQL*Plus.✅
+
+2. Write a PL/SQL block to find the square, cube, and double of a number inputted with a substitution 
+variable, and print results using built-in package DBMS_OUTPUT.✅
+
+3. Write a PL/SQL block to swap the values of two variables. Print variables before and after swapping.✅
+
+4. Write a PL/SQL program to input hours and rate. Find gross pay and net pay.
+The tax rate is 28%. Print your results.  (No need to perform overtime calculations)✅
+
+5. Write a PL/SQL program with two variables for the first name and the last name. Print the full name with 
+last name and first name separated by comma and a space.✅
+
+6. Write a PL/SQL block to find out if a year is a leap year. ✅
+
+7. Write a PL/SQL block to ask a user to input a valid employee Id.
+Retrieve employees name, qualification description, salary and commission.
+Print name, qualification and sum of salary and commission.✅
