@@ -26,3 +26,4 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Name: '||emp.name||' | Qualification: '||emp.qualification||' | Salary: '||emp.salary||' | Commission: '||emp.commission);
 END;
 -- drop table demoEmp;
+/ -- this required when executing it in sqlplus cmd

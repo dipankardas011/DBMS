@@ -19,3 +19,4 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE(a);
     DBMS_OUTPUT.PUT_LINE(b);
 END;
+/ -- this required when executing it in sqlplus cmd

@@ -9,3 +9,4 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('NonLeap Year');
     end if;
 END;
+/ -- this required when executing it in sqlplus cmd

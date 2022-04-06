@@ -12,3 +12,4 @@ BEGIN
     net := gross - tax;
     DBMS_OUTPUT.PUT_LINE('Gross pay: $'||gross||' Net Pay: $'||net);
 END;
+/ -- this required when executing it in sqlplus cmd

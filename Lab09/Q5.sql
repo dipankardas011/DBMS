@@ -7,3 +7,4 @@ BEGIN
     last := &last;
     DBMS_OUTPUT.PUT_LINE(first||', '||last);
 END;
+/ -- this required when executing it in sqlplus cmd

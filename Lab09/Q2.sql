@@ -14,3 +14,4 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Cube: '||cu);
     DBMS_OUTPUT.PUT_LINE('Double: '||doN);
 END;
+/ -- this required when executing it in sqlplus cmd

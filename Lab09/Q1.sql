@@ -14,3 +14,4 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE(area);
     end;
 END;
+/ -- this required when executing it in sqlplus cmd
