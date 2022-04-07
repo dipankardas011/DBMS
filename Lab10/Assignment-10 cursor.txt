@@ -10,11 +10,11 @@
 9. Write a PLSQL program to display the product of 2 numbers without multiplication.✅
 10. Write a PLSQL program to sum of all the numbers from 1 to n.✅
 11. Write a PLSQL program to accept the name of a student and display it in Upper case and
-Lowercase.
-12. Write a PLSQL program to display all the odd numbers within a given range.
-13. Write a PLSQL program to display multiplication table up to 10 for a given number.
-14. Write a PLSQL program to display the sum of every digit of a given number.
-15. Write a PLSQL program to check the given number is Palindrome or not.
+Lowercase.✅
+12. Write a PLSQL program to display all the odd numbers within a given range.✅
+13. Write a PLSQL program to display multiplication table up to 10 for a given number.✅
+14. Write a PLSQL program to display the sum of every digit of a given number.✅
+15. Write a PLSQL program to check the given number is Palindrome or not.✅
 
 1. Create a PL/SQL block to declare a cursor to select last name, first name, salary, and hire date from
 the EMPLOYEE table. Retrieve each row from the cursor and print the employees information if the employees 

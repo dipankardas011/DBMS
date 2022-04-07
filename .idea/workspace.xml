@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7c98a0b-22f4-45b7-8b15-65047d8dd1c1" name="Changes" comment="Completed till the Q6 in Lab07">
-      <change afterPath="$PROJECT_DIR$/Lab10/Q1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q10.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q11.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q12.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q13.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q14.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q15.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q3.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q4.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q5.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q6.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q7.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q8.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Q9.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc0826be-5577-475e-976c-66eeea6d92e9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc0826be-5577-475e-976c-66eeea6d92e9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab09/Q1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab09/Q1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab09/Q2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab09/Q2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab09/Q3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab09/Q3.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab09/Q4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab09/Q4.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab09/Q5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab09/Q5.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab09/Q6.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab09/Q6.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab09/Q7.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab09/Q7.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Assignment-10 cursor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/Assignment-10 cursor.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Q11.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/Q11.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Q12.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/Q12.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Q13.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/Q13.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Q14.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/Q14.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Q15.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/Q15.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
