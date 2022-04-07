@@ -18,12 +18,12 @@ Lowercase.✅
 
 1. Create a PL/SQL block to declare a cursor to select last name, first name, salary, and hire date from
 the EMPLOYEE table. Retrieve each row from the cursor and print the employees information if the employees 
-salary is greater than $50,000 and the hire date is before 31-DEC-1997 (explicit cursor problem).
+salary is greater than $50,000 and the hire date is before 31-DEC-1997 (explicit cursor problem).✅
 
 2. Create a PL/SQL block that declares a cursor. Pass a parameter to the cursor of the type that is the 
 same as the Salary column in EMPLOYEE table to the cursor. Open the cursor with a value for the parameter.
 Retrieve information into the cursor for a salary higher than the parameter value. Use a loop to print
-each employees information from the cursor (cursor with parameter problem).
+each employees information from the cursor (cursor with parameter problem).✅
 
 3. Create a PL/SQL block that declares a cursor. Pass building as parameter and increase the capacity by 
-20%.
+20%.✅
