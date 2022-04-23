@@ -1,5 +1,11 @@
 set SERVEROUTPUT on;
 
+
+CREATE OR REPLACE PACKAGE q6 AS
+  procedure rooom(A location.ROOMNO%TYPE);
+  FUNCTION crssss(A CRSSECTION.CSID%TYPE) return NUMBER;
+end q6;
+
 CREATE OR REPLACE PACKAGE BODY q6 AS
 
     procedure rooom(A location.ROOMNO%TYPE) 

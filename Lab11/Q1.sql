@@ -23,18 +23,20 @@ DECLARE
     dat employee.hireDate%type;
     usree employee.id%type;
     errr EXCEPTION;
+    cnt NUMBER;
 BEGIN
     usree := &usree;
-    select id, first, salary, hireDate into IDID, ft, sall, dat from employee where usree=id;
-    if usree < 0 then
+    select COUNT(*) into cnt from employee where usree=id;
+    if cnt = 0 then
         RAISE errr;
     else
-        DBMS_OUTPUT.PUT_LINE(IDID||' '||ft||' '||sall||' '||dat);
+      select id, first, salary, hireDate into IDID, ft, sall, dat from employee where usree=id;
+      DBMS_OUTPUT.PUT_LINE(IDID||' '||ft||' '||sall||' '||dat);
     end if;
 
-    EXCEPTION
-        when errr then
-            DBMS_OUTPUT.PUT_LINE('NO -ve id');
-        when OTHERS then
-            DBMS_OUTPUT.PUT_LINE('No employee with given id');
+EXCEPTION
+    when errr then
+        DBMS_OUTPUT.PUT_LINE('NO -ve id');
+    when OTHERS then
+        DBMS_OUTPUT.PUT_LINE('No employee with given id');
 END;
