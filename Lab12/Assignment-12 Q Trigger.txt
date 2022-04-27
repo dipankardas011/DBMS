@@ -1,11 +1,12 @@
-1. Write a trigger that is fired before the DML statement�s execution on the EMPLOYEE table.
+1. Write a trigger that is fired before the DML statement's execution on the EMPLOYEE table.
  The trigger checks the day based on SYSDATE. If the day is Sunday, the trigger does not allow the DML statements 
  execution and raises an exception. Write the appropriate message in the exception-handling section.
-
+✅
 2. Write a trigger that is fired after an INSERT statement is executed for the STUDENT table. The trigger writes 
 the new students ID, users name, and systems date in a table called TRACKING. (Note: You must create the 
-TRACKING table first). 
+TRACKING table first).✅ 
 
 3. Create a complex view EMP_DEP_VIEW using an outer join between EMPLOYEE and DEPENDENT table with employee names, 
 dependents birthdate and relation.  The outer join will also return employees without any dependents.  Now, 
 create an INSTEAD OF trigger based on EMP_DEP_VIEW to enable you to delete employee 433 through view.
+✅
