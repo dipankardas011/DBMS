@@ -94,10 +94,7 @@ from LOCATION;
 
 delete
 from LOCATION
-where ROOMID = 23
-   OR ROOMID = 24
-   OR ROOMID = 25
-   OR ROOMID = 26;
+where ROOMID IN(23, 24, 25, 26);
 drop sequence loc_seq1;
 
 
