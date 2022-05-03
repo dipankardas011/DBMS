@@ -19,7 +19,7 @@ select title as courseName, faculty.name
     WHERE course.COURSEID=CRSSECTION.COURSEID AND CRSSECTION.TERMID='SP03';
 
 -- Q5
-select c1.title course, c2.prereq
+select c1.title course, nvl2(c2.prereq, c2.prereq, 'none')
     from course c1 left outer join course c2
         on c1.courseid=c2.courseid;
 
