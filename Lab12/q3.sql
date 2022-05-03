@@ -9,6 +9,8 @@ create table employee(
     name varchar2(25) NOT NULL
 );
 
+alter table employee add foreign key(d_id) references dependent(d_id);
+
 insert into dependent VALUES(11, '31-Jan-2001', 'Son');
 insert into dependent VALUES(12, '1-Feb-1999', 'Daughter');
 insert into dependent VALUES(13, '12-Jun-1982', 'Mother');
