@@ -21,7 +21,7 @@ DECLARE
   currDate varchar(12);
 BEGIN
   SELECT TO_CHAR(SYSDATE, 'DAY') INTO currDate FROM dual;
-  IF currDate = 'SUNDAY' THEN
+  IF (currDate = 'SUNDAY') THEN
     DBMS_OUTPUT.PUT_LINE('Its Allowed');
   ELSE
     RAISE_APPLICATION_ERROR(-20024,'DML not allowed in other days');
