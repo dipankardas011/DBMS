@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7c98a0b-22f4-45b7-8b15-65047d8dd1c1" name="Changes" comment="Completed till the Q6 in Lab07">
-      <change afterPath="$PROJECT_DIR$/Lab11/Q1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11/Q2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11/Q3.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11/Q4.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11/Q5.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11/Q6.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9c761081-01e9-47b9-abcd-a6c3239ffe6d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,59 +10,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="25UkctGCUaa0CHLuA5Jp0RI5Myo" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="2AWMOnKeOiQfcnHq81uxfkRDAi1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="oracle" />
-    <property name="RunOnceActivity.OpenDatabaseViewOnStart" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="Oracle&#10;OracleSqlPlus" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
-  <component name="ReaderModeSettings">
-    <option name="showLigatures" value="true" />
-  </component>
-  <component name="RunManager" selected="Database Script.Q1.sql">
-    <configuration name="Q1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Lab09/Q1.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
-    </configuration>
-    <configuration name="q1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Lab06/q1.sql" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/dipankar/GoogleDrive/KIIT/DBMS",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="notes1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/basics/notes1.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.Q1.sql" />
-        <item itemvalue="Database Script.q1.sql" />
+        <item itemvalue="Database Script.notes1.sql" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed till the Q6 in Lab07" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed till the Q6 in Lab07" />
-  </component>
 </project>
