@@ -1,3 +1,7 @@
+create database me;
+
+use me;
+
 create table pet(
   name varchar(20),
   owner varchar(20),
@@ -6,8 +10,6 @@ create table pet(
   birth date,
   death date
 );
-
-
 
 insert into pet values('Fluffy', 'Harold', 'cat', 'f', '1993-02-04', NULL);
 insert into pet values('Claws', 'Gwen', 'cat', 'm', '1994-03-17', NULL);
@@ -63,3 +65,5 @@ select species, count(*) as number_of_animals from pet group by species;
 select sex, count(*) as gender_demograph from pet group by sex;
 
 select species, sex, count(*) as number_of_animals_per_species_per_sex from pet group by species, sex;
+
+drop table pet;

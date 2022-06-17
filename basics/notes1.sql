@@ -23,6 +23,7 @@ WHERE e.type = 'litter';
 
 #--------------------------------------------------------
 
+
 CREATE TABLE shop (
     article INT UNSIGNED  DEFAULT '0000' NOT NULL,
     dealer  CHAR(20)      DEFAULT ''     NOT NULL,
@@ -49,3 +50,68 @@ select MOD(34, 5);
 SELECT MIN(article) AS article FROM shop;
 SELECT MAX(article) AS article FROM shop;
 
+
+#------- Row holding max of certain column
+SELECT article, dealer, price
+FROM   shop
+WHERE  price=(SELECT MAX(price) FROM shop);
+
+SELECT s1.article, s1.dealer, s1.price
+FROM shop s1
+LEFT JOIN shop s2 ON s1.price < s2.price
+WHERE s2.article IS NULL;
+
+SELECT article, dealer, price
+FROM shop
+ORDER BY price DESC
+LIMIT 1;
+
+# max of column per group
+# among each article find the max price
+
+select article, MAX(price) from shop group by article;
+
+# The Rows Holding the Group-wise Maximum of a Certain Column
+
+select
+    *
+from shop s1
+where
+    s1.price=(
+        select MAX(s2.price)
+        from shop s2
+        where s1.article=s2.article
+        );
+# The preceding example uses a correlated subquery, which can be inefficient (see Section 13.2.11.7, “Correlated Subqueries”). Other possibilities for solving the problem are to use an uncorrelated subquery in the FROM clause, a LEFT JOIN, or a common table expression with a window function.
+
+SELECT s1.article, dealer, s1.price
+FROM shop s1
+JOIN (
+  SELECT article, MAX(price) AS price
+  FROM shop
+  GROUP BY article
+  ) AS s2
+  ON s1.article = s2.article AND s1.price = s2.price
+ORDER BY price desc;
+
+
+
+# last of basics_notes1.png
+SELECT s1.article, s1.dealer, s1.price
+FROM shop s1
+LEFT JOIN shop s2 ON s1.article = s2.article AND s1.price < s2.price
+WHERE s2.article IS NULL
+ORDER BY s1.article;
+
+
+WITH s1 AS (
+   SELECT article, dealer, price,
+          RANK() OVER (PARTITION BY article
+                           ORDER BY price DESC
+                      ) AS `Rank`
+     FROM shop
+)
+SELECT article, dealer, price
+  FROM s1
+  WHERE `Rank` = 1
+ORDER BY article;

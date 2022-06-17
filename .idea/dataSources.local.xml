@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="DB-221.5787.39">
-    <data-source name="@localhost" uuid="9128df1b-4e12-45a4-b1f0-fc0840db1ffa">
+    <data-source name="MYSQL-server-minikube" uuid="75d7011f-c01b-40e0-80a9-f28d1a94431f">
       <database-info product="MySQL" version="8.0.29" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="8.0.29" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -13,7 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="learn" />
+            <name qname="learning" />
           </node>
         </introspection-scope>
       </schema-mapping>
