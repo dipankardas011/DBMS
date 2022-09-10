@@ -14,6 +14,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AWMOnKeOiQfcnHq81uxfkRDAi1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,6 +37,7 @@
       "mysql"
     ],
     "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL",
       "PostgreSQL"
     ]
   }
