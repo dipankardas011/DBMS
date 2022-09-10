@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="MYSQL-server-minikube">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.39">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.41">
     <root id="1">
       <DefaultCasing>exact</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -1176,9 +1176,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="313" parent="291" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <check id="314" parent="292" name="agelimit">
       <Predicate>(10 &lt; `age`) &lt; 30</Predicate>
@@ -1211,12 +1211,11 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="321" parent="292" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <key id="322" parent="292" name="id_2">
-      <ColNames>id</ColNames>
       <UnderlyingIndexName>id_2</UnderlyingIndexName>
     </key>
     <column id="323" parent="293" name="sentence">
@@ -1265,9 +1264,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>3</Position>
     </column>
     <key id="333" parent="297" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="334" parent="298" name="city">
       <DataType>varchar(20)|0s</DataType>
@@ -1293,9 +1292,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>5</Position>
     </column>
     <key id="339" parent="298" name="PRIMARY">
-      <ColNames>city</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>city</UnderlyingIndexColNames>
     </key>
     <column id="340" parent="299" name="city">
       <DataType>varchar(20)|0s</DataType>
